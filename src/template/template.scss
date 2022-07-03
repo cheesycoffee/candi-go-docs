@@ -1,0 +1,43 @@
+.ant-layout {
+  .ant-layout-header {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    background: rgb(6, 10, 36);
+    background: linear-gradient(
+      58deg,
+      rgba(6, 10, 36, 1) 0%,
+      rgba(0, 102, 153, 1) 100%
+    );
+    .menuBar {
+      overflow: none;
+      width: 100%;
+      text-align: left;
+      a {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .logo {
+        margin-left: 10%;
+        pointer-events: none;
+        max-height: 100%;
+        color: white;
+        float: left;
+      }
+    }
+  }
+  .ant-menu-horizontal {
+    background-color: transparent;
+    color: white;
+  }
+  .ant-layout-sider {
+    background: rgb(6, 10, 36);
+  }
+  .ant-layout-sider-children {
+    background-color: transparent;
+    .ant-menu {
+      background-color: transparent;
+      color: white;
+    }
+  }
+}
